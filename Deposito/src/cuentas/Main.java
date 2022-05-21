@@ -9,11 +9,19 @@ package cuentas;
  * @author Cristian
  */
 public class Main {
-
+  
+    /**
+     *
+     * @param args metodo principal del programa
+     */
     public static void main(String[] args) {
        operativa_cuenta(2500);   
     }
-    
+       
+    /**
+     *
+     * @param cantidad cantidad inicial de la cuenta para ejecucion de las operaciones
+     */
     public static void operativa_cuenta(float cantidad) {
         CCuenta cuenta1;
         double saldoActual;
